@@ -1,0 +1,9 @@
+h1. Stetyc
+
+Started By Fajr H. Febriansyah
+
+Stetyc is a simple static blog generator. It makes website from dynamic PHP pages first, and spits out a complete, static pages suitable for serving with Apache or your favorite web server. 
+
+h2. Getting Started
+
+Soon :)
