@@ -1,0 +1,26 @@
+<h2><a href="http://chipz.kandangbuaya.com" rel="bookmark" title="Sql for Reminder">SQL for Reminder</a></h2>
+
+<span class="date">by fajr on 01 April 2012</span>
+
+<div class="entry">
+    <p>Terdengar simple memang, tapi saya sering lupa, jadi buat mengingat-ingat syntax ini aja, jadi saya tulis di blog deh..</p>
+    <code>SELECT count(*) as jumlah FROM table_name WHERE 1</code>
+    <p>syntax diatas digunakan untuk menghitung jumlah record dari hasil query di MySQL
+    sebenere syntax e bisa lebih simple, tanpa menggunakan &#8216;as&#8217; jadi gini aja:
+    <p><code>SELECT count(*)  FROM table_name WHERE 1</code></p>
+    <p>tapi ntar nama output e jelek hehe, so, kita kasih &#8216;as&#8217; deh
+    biar hasil e gini</p>
+    <table border=1>
+      <tbody>
+        <tr>
+          <td>Jumlah</td>
+        </tr>
+        <tr>
+          <td>16</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>ok, itu aja..
+    hanya mau sharing dan mengingatkan diri saya sendiri :peace:</p>
+</div>
+				

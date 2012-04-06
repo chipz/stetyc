@@ -1,0 +1,13 @@
+					<h2><a href="http://vostoktheme.com/black/?p=1220" rel="bookmark" title="On architects&#039; websites">On architects&#039; websites</a></h2>
+
+					<span class="date">by Mark on 25/03/2010</span>
+
+					<div class="entry">
+
+						<p>Alissa Walker from Fast Company on architects&#8217; websites:</p>
+<blockquote><p>The most un-usable architecture firm Web sites are often exactly like the buildings those architects design: Created to make a statement, rather than focus on everyday livability. Perhaps they have to solve one problem before they can tackle the other.</p></blockquote>
+<p><a href="http://www.fastcompany.com/1594118/why-cant-the-worlds-best-architects-build-a-better-web-site?1269439934">The article</a> is rather shallow, but worth skimping to check out some info-architectural disasters.</p>
+					</div>
+					<!-- comment out the comment section
+					<span class="number-of-comments"><a href="http://vostoktheme.com/black/?p=1220#comments" title="title">No Comments</a></span>
+					-->
