@@ -10,6 +10,7 @@ class News extends CI_Controller {
 	$this->load->model('newsmod');
 	$this->load->helper('text');
 	$this->load->library('template');
+    $this->load->library('Textile');
 	}
 	
 	function _language(){
@@ -66,14 +67,17 @@ class News extends CI_Controller {
 	}
 
     function generate(){
-        $list_files = $this->listdir('post');
+        $list_files = $this->listdir('textilepost');
 
         foreach( $list_files as $file){
-            $data['content'] = file_get_contents('./post/'.$file);        
-
+            $x = file_get_contents('./textilepost/'.$file);        
+            $separate = explode('--',$x);
+            $titles = explode('title: ',$separate[1]);
+            $title = $titles[1];
+            $data['content'] = $this->textile->TextileThis($separate[2]);
             $this->template->set_theme('vostok');
             $this->template->set_layout('default3')
-            ->title('fajr')
+            ->title($title)
             ->build('tessingle',$data);
 
             //change directory before write
@@ -85,7 +89,7 @@ class News extends CI_Controller {
         //generate index html
         $data['content'] = "";
         foreach($list_files as $file){
-            $data['content'] .= '<h2><a href="'.base_url().'static/'.$file.'" rel="bookmark" title="'.$file.'">'.$file.'</a></h2><br />';
+            $data['content'] .= '<h2><a href="'.base_url().'statics/'.$file.'.html" rel="bookmark" title="'.$file.'">'.$file.'</a></h2><br />';
         }
         $this->template->set_theme('vostok');
         $this->template->set_layout('default3')

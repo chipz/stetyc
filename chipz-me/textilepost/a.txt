@@ -1,0 +1,11 @@
+--
+title: Blogging Like a Hacker
+--
+
+h3. This is a subhead
+
+p{color:red}. This is some text of dubious character. Isn't the use of "quotes" just lazy writing -- and theft of 'intellectual property' besides? I think the time has come to see a block quote.
+
+* This is a list item
+* So is this
+* And this one, too! 

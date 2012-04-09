@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <!-- saved from url=(0029)http://vostoktheme.com/black/ -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Vostok Theme – Black - Just another WordPress site</title>
+<title><?php echo $template['title'] ?></title>
 	
 	<meta name="description" content="Chipz Me">
 	<meta name="generator" content="stetyc 1.0">
