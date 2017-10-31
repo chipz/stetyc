@@ -6,4 +6,7 @@ Stetyc is a simple static blog generator. It makes website from dynamic PHP page
 
 h2. Getting Started
 
+h3. How to Install
+h3. How to Deploy
+
 Soon :)
